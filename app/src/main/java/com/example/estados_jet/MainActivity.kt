@@ -15,12 +15,12 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            Estados_jetTheme { // Asegúrate de que el nombre del tema sea correcto
+            Estados_jetTheme {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    WellnessScreen() // Asegúrate de que este composable esté definido
+                    WellnessScreen()
                 }
             }
         }
