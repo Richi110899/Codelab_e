@@ -33,8 +33,8 @@ fun StatelessCounter(count: Int, onIncrement: () -> Unit, modifier: Modifier = M
             onClick = onIncrement,
             enabled = count < 10,
             colors = ButtonDefaults.buttonColors(
-                containerColor = Color(0xFFFFC0CB), // Color rosado
-                contentColor = Color.White // Color del texto del botón
+                containerColor = Color(0xFFFF0000),
+                contentColor = Color.White
             ),
             modifier = Modifier.padding(top = 8.dp)
         ) {
