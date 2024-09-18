@@ -8,10 +8,10 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 @Composable
 fun WellnessScreen(
     modifier: Modifier = Modifier,
-    wellnessViewModel: WellnessViewModel = viewModel() // Asegúrate de que WellnessViewModel esté definido
+    wellnessViewModel: WellnessViewModel = viewModel()
 ) {
     Column(modifier = modifier) {
-        StatefulCounter() // Asegúrate de que StatefulCounter esté definido
+        StatefulCounter()
 
         WellnessTasksList(
             list = wellnessViewModel.tasks,
